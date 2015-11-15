@@ -2,15 +2,23 @@ $("document").ready( function()
     {
         $("button").click(function()
             {
-                //contains() selector
-                //$("p:contains(1)").css("color","green");
+                //input selector
+                //$(":input").css("background-color","green");
 
-                //has() selector
-                //will look for span element inside p element if present
-                //$("p:has(span)").css("color","green");
+                //text selector
+                //$(":text").css("background-color","green");
 
-                //parent selector
-                //$("p:parent").css("color","green");
+                //password selector
+                //$(":password").css("background-color","green");
+
+                //radio selector
+                //$(":radio").wrap("<span style='background-color:green' />");
+
+                //checkbox selector
+                //$(":checkbox").wrap("<span style='background-color:green' />");
+
+                //checked selector
+                //$(":checked").wrap("<span style='background-color:green' />");
             }
         );
     }
